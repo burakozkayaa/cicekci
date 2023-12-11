@@ -118,6 +118,7 @@ a{
     border: 1px solid rgba(0,0,0,0.14);
     color: #f8f8f8;
     background-color: #e74444;
+    margin: 40px;
 }
 .categories{
     display: flex;
@@ -273,12 +274,14 @@ a{
     align-items: center;
     flex-direction: column;
     height: 300px;
+    
 }
 .banner-img img{
     width: 100%;
-    height: 100%;
+    height: 63%;
     object-fit: contain;
     object-position: center;
+    
 }
 .banner-text{
     display: flex;
@@ -384,5 +387,5 @@ footer{
         height: 150px;
 
     }
-    
+
 }
