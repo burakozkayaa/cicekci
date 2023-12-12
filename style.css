@@ -67,7 +67,7 @@ a{
     transition: all ease 0.2s;
 }
 .main{
-    background-color: #f3bdbd;
+    background-image: linear-gradient(rgba(143, 81, 143, 0.7),rgba(80, 54, 83, 0.7)), url(foto/imgback2.png);
     min-height: 70vh;
     display: flex;
     justify-content: center;
@@ -135,11 +135,12 @@ a{
     align-items: center;
     padding: 20px;
     border: 1px solid rgba(0,0,0,0.04);
-    background-color: #c9e7b3c2;
+    background-image: linear-gradient(rgba(167, 165, 87, 0.7),rgba(107, 156, 92, 0.7)),url(foto/imgback.png);
 }
 .category-box{
     position: relative;
     padding: 20px;
+    
 }
 .category-box img{
     width: 220px;
@@ -158,7 +159,7 @@ a{
     justify-content: center;
     align-items: center;
     font-weight: 600;
-    color: #2c2b2b;
+    color: #ffffff;
     text-transform: uppercase;
 }
 .category-box:hover img{
